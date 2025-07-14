@@ -1,0 +1,19 @@
+{
+  "home": "Home",
+  "projects": "Projects",
+  "about": "About",
+  "contact": "Contact",
+  "language": "Language",
+  "about_title": "About Me",
+  "about_description": "I'm Cüneyt Öztürk, a passionate software developer who builds end-to-end solutions with a strong interest in web technologies. On the frontend, I develop user-centric interfaces using modern tools like React, Angular, and TailwindCSS. On the backend, I write reliable and scalable services with Spring Boot and Node.js. I work with database technologies like Oracle SQL and PL/SQL to build data-driven systems on solid foundations. In every project, I prioritize code quality, performance, and user experience. I constantly strive to learn new technologies and improve myself with an open mindset.",
+  "hero_greeting_1": "Hello, I am",
+  "hero_name": "Muhsin Cüneyt Öztürk",
+  "hero_description": "As a Full-stack Developer, I build user-friendly interfaces, reliable web services, and performance-oriented backend systems. I also conduct efficiency improvements in SQL queries and database operations.",
+  "hero_projects_button": "View My Projects",
+  "hero_cv_button": "Download My CV",
+  "contact_title": "Contact",
+  "contact_description": "You can use the addresses below to contact me or send an email directly.",
+  "contact_email": "Send Email",
+  "contact_github_aria": "GitHub",
+  "contact_linkedin_aria": "LinkedIn"
+}

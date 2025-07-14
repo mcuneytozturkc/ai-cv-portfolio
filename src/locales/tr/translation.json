@@ -1,0 +1,19 @@
+{
+  "home": "Anasayfa",
+  "projects": "Projeler",
+  "about": "Hakkımda",
+  "contact": "İletişim",
+  "language": "Dil",
+  "about_title": "Hakkımda",
+  "about_description": "Ben Cüneyt Öztürk. Web teknolojilerine tutku duyan, uçtan uca çözümler geliştiren bir yazılım geliştiricisiyim.Frontend tarafında React, Angular ve TailwindCSS gibi modern araçlarla kullanıcı odaklı arayüzler geliştiriyorum.Backend tarafında Spring Boot ve Node.js ile güvenilir, ölçeklenebilir servisler yazıyorum.Oracle SQL ve PL/SQL gibi veri tabanı teknolojileriyle çalışarak veriye dayalı sistemleri sağlam temellerle kuruyorum.Her projemde kod kalitesine, performansa ve kullanıcı deneyimine önem veriyorum.Yeni teknolojileri öğrenmeye ve kendimi sürekli geliştirmeye açık bir bakış açısıyla ilerliyorum.",
+  "hero_greeting_1": "Merhaba, ben",
+  "hero_name": "Muhsin Cüneyt Öztürk",
+  "hero_description": "Full-stack Developer olarak hem frontend hem backend geliştirmeleri yapıyor, web servisleri geliştiriyor ve SQL sorgularında performans iyileştirmeleri sağlıyorum.",
+  "hero_projects_button": "Projelerime Göz At",
+  "hero_cv_button": "CV'mi İndir",
+  "contact_title": "İletişim",
+  "contact_description": "Benimle iletişime geçmek için aşağıdaki adresleri kullanabilir ya da doğrudan e-posta gönderebilirsiniz.",
+  "contact_email": "E-posta Gönder",
+  "contact_github_aria": "GitHub",
+  "contact_linkedin_aria": "LinkedIn"
+}

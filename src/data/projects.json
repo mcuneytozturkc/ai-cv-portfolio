@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "title": {
+      "tr": "AI Destekli CV",
+      "en": "AI-Powered Resume",
+      "nl": "AI-Gestuurd CV"
+    },
+    "description": {
+      "tr": "React ve OpenAI API kullanarak interaktif CV oluşturma.",
+      "en": "Creating an interactive resume using React and the OpenAI API.",
+      "nl": "Een interactief CV maken met React en de OpenAI API."
+    },
+    "tech": [
+      "React",
+      "TypeScript",
+      "Tailwind",
+      "OpenAI API"
+    ],
+    "link": "https://github.com/kullanici/ai-cv"
+  },
+  {
+    "id": 2,
+    "title": {
+      "tr": "Kişisel Blog",
+      "en": "Personal Blog",
+      "nl": "Persoonlijke Blog"
+    },
+    "description": {
+      "tr": "Next.js ile hazırlanmış statik blog sitesi.",
+      "en": "A static blog site built with Next.js.",
+      "nl": "Een statische blogsite gebouwd met Next.js."
+    },
+    "tech": [
+      "Next.js",
+      "Markdown",
+      "Vercel"
+    ],
+    "link": "https://blog.example.com"
+  }
+]
