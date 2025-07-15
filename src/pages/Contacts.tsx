@@ -20,7 +20,10 @@ export default function Contacts() {
                 <p className="text-gray-300 mb-8 text-lg">
                     {t("contact_description")}
                 </p>
-
+                {/* Telefon */}
+                <div className="mb-6">
+                    +90 534 249 07 73
+                </div>
                 {/* E-posta */}
                 <div className="mb-6">
                     <a
@@ -32,27 +35,6 @@ export default function Contacts() {
                     </a>
                 </div>
 
-                {/* Sosyal Linkler */}
-                <div className="flex justify-center gap-6 text-white text-2xl">
-                    <a
-                        href="https://github.com/mcuneytozturkc"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="hover:text-blue-400 transition"
-                        aria-label={t("contact_github_aria")}
-                    >
-                        <FaGithub />
-                    </a>
-                    <a
-                        href="https://www.linkedin.com/in/muhsin-cuneyt-ozturk"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="hover:text-blue-400 transition"
-                        aria-label={t("contact_linkedin_aria")}
-                    >
-                        <FaLinkedin />
-                    </a>
-                </div>
             </div>
         </motion.section>
     );
