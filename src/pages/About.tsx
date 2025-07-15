@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 export default function About() {
     const { t } = useTranslation();
@@ -20,6 +21,27 @@ export default function About() {
                     <p className="text-gray-300 text-lg whitespace-pre-line">
                         {t("about_description")}
                     </p>
+                    {/* Sosyal Linkler */}
+                    <div className="mt-16 flex justify-center gap-6 text-white text-2xl">
+                        <a
+                            href="https://github.com/mcuneytozturkc"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="hover:text-blue-400 transition"
+                            aria-label={t("contact_github_aria")}
+                        >
+                            <FaGithub />
+                        </a>
+                        <a
+                            href="https://www.linkedin.com/in/muhsin-cuneyt-ozturk"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="hover:text-blue-400 transition"
+                            aria-label={t("contact_linkedin_aria")}
+                        >
+                            <FaLinkedin />
+                        </a>
+                    </div>
                     <img
                         src="src/assets/cuneyt-signature-transparent.png"
                         alt="Cüneyt Öztürk imza"
@@ -27,6 +49,7 @@ export default function About() {
                     />
                 </div>
             </section>
+
         </motion.div>
     );
 }
