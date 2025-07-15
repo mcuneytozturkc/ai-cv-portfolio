@@ -15,5 +15,6 @@
   "contact_description": "You can reach me using the phone number below or by sending an email directly.",
   "contact_email": "Send Email",
   "contact_github_aria": "GitHub",
-  "contact_linkedin_aria": "LinkedIn"
+  "contact_linkedin_aria": "LinkedIn",
+  "tech_stack": "Angular JS, React JS, Node JS, Spring Boot, Oracle SQL, PL/SQL, PostgreSQL, Tailwind CSS"
 }

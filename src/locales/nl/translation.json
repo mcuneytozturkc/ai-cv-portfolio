@@ -15,5 +15,6 @@
   "contact_description": "Je kunt contact met mij opnemen via het onderstaande telefoonnummer of door direct een e-mail te sturen.",
   "contact_email": "E-mail Versturen",
   "contact_github_aria": "GitHub",
-  "contact_linkedin_aria": "LinkedIn"
+  "contact_linkedin_aria": "LinkedIn",
+  "tech_stack": "Angular JS, React JS, Node JS, Spring Boot, Oracle SQL, PL/SQL, PostgreSQL, Tailwind CSS"
 }

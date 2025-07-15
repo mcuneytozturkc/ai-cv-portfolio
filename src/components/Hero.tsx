@@ -1,4 +1,6 @@
 import { useTranslation } from "react-i18next";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+
 
 export default function Hero() {
     const { t, i18n } = useTranslation();

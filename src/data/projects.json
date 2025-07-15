@@ -17,7 +17,7 @@
       "Tailwind",
       "OpenAI API"
     ],
-    "link": "https://github.com/kullanici/ai-cv"
+    "link": "https://github.com/mcuneytozturkc/ai-cv-portfolio"
   },
   {
     "id": 2,
@@ -37,5 +37,25 @@
       "Vercel"
     ],
     "link": "https://blog.example.com"
+  },
+  {
+    "id": 3,
+    "title": {
+      "tr": "Rüya Dükkanı",
+      "en": "Dream Shop",
+      "nl": "Droom Winkel"
+    },
+    "description": {
+      "tr": "Angular ve Java SpringBoot ile hazırlanmış rüya satın alım uygulaması.",
+      "en": "A dream purchase application built with Angular and Java SpringBoot.",
+      "nl": "Een droom aankoopapplicatie gebouwd met Angular en Java SpringBoot."
+    },
+    "tech": [
+      "Angular",
+      "TypeScript",
+      "Java Springboot",
+      "PostgreSQL"
+    ],
+    "link": "https://github.com/mcuneytozturkc/ai-cv-portfolio"
   }
 ]
