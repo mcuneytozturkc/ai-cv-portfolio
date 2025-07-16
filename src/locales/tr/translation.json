@@ -15,5 +15,6 @@
   "contact_description": "Benimle iletişime geçmek için aşağıdaki telefon numarasını kullanabilir ya da doğrudan e-posta gönderebilirsiniz.",
   "contact_email": "E-posta Gönder",
   "contact_github_aria": "GitHub",
-  "contact_linkedin_aria": "LinkedIn"
+  "contact_linkedin_aria": "LinkedIn",
+  "tech_stack": "Angular JS, React JS, Node JS, Spring Boot, Oracle SQL, PL/SQL, PostgreSQL, Tailwind CSS"
 }

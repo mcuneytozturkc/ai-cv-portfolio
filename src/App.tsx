@@ -6,6 +6,7 @@ import About from './pages/About';
 import Home from './pages/Home';
 import Navbar from './components/NavBar';
 import Contacts from './pages/Contacts';
+import AIChat from './chat/AiChat';
 
 // AnimatePresence için sarmalayıcı bileşen
 function AnimatedRoutes() {
@@ -25,11 +26,12 @@ function AnimatedRoutes() {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/ai-cv-portfolio">
       <Navbar />
       <main className="w-full min-h-screen">
         <AnimatedRoutes />
       </main>
+      <AIChat />
     </BrowserRouter>
   );
 }
