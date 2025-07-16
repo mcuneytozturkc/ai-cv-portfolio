@@ -22,21 +22,27 @@
   {
     "id": 2,
     "title": {
-      "tr": "Kişisel Blog",
-      "en": "Personal Blog",
-      "nl": "Persoonlijke Blog"
+      "tr": "ChartMaker",
+      "en": "ChartMaker",
+      "nl": "ChartMaker"
     },
     "description": {
-      "tr": "Next.js ile hazırlanmış statik blog sitesi.",
-      "en": "A static blog site built with Next.js.",
-      "nl": "Een statische blogsite gebouwd met Next.js."
+      "tr": "React ve Framer Motion kullanarak etkileşimli grafik oluşturma uygulaması.",
+      "en": "An interactive chart creation application using React and Framer Motion.",
+      "nl": "Een interactieve grafiekcreatie-applicatie met React en Framer Motion."
     },
     "tech": [
-      "Next.js",
-      "Markdown",
-      "Vercel"
+      "React.js",
+      "Chart.js"
     ],
-    "link": "https://blog.example.com"
+    "link": "https://github.com/mcuneytozturkc/dashboard-app",
+    "images": [
+      "/projects/chartmaker/main-page-light-tr.jpg",
+      "/projects/chartmaker/excel-chart-light-tr.jpg",
+      "/projects/chartmaker/pdf-chart-dark-tr.jpg",
+      "/projects/chartmaker/contact-page-dark-en.jpg",
+      "/projects/chartmaker/contact-page-dark-tr.jpg"
+    ]
   },
   {
     "id": 3,
@@ -56,6 +62,13 @@
       "Java Springboot",
       "PostgreSQL"
     ],
-    "link": "https://github.com/mcuneytozturkc/ai-cv-portfolio"
+    "link": "https://github.com/mcuneytozturkc/Store-of-morpheus",
+    "images": [
+      "/projects/store-of-morpheus/main-page.jpg",
+      "/projects/store-of-morpheus/how-it-works.jpg",
+      "/projects/store-of-morpheus/navbar-menu-works.jpg",
+      "/projects/store-of-morpheus/dream-library.jpg",
+      "/projects/store-of-morpheus/share-your-dream.jpg"
+    ]
   }
 ]
