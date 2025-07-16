@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaEnvelope } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 
 export default function Contacts() {

@@ -1,5 +1,4 @@
 // ProjectCarousel.tsx
-import { Github } from "lucide-react";
 import { FaGithub } from "react-icons/fa";
 export default function ProjectCarousel({ projects, onProjectClick }: any) {
     return (

@@ -26,7 +26,7 @@ function AnimatedRoutes() {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/ai-cv-portfolio">
       <Navbar />
       <main className="w-full min-h-screen">
         <AnimatedRoutes />
