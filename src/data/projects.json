@@ -37,11 +37,11 @@
     ],
     "link": "https://github.com/mcuneytozturkc/dashboard-app",
     "images": [
-      "/projects/chartmaker/main-page-light-tr.jpg",
-      "/projects/chartmaker/excel-chart-light-tr.jpg",
-      "/projects/chartmaker/pdf-chart-dark-tr.jpg",
-      "/projects/chartmaker/contact-page-dark-en.jpg",
-      "/projects/chartmaker/contact-page-dark-tr.jpg"
+      "/ai-cv-portfolio/projects/chartmaker/main-page-light-tr.jpg",
+      "/ai-cv-portfolio/projects/chartmaker/excel-chart-light-tr.jpg",
+      "/ai-cv-portfolio/projects/chartmaker/pdf-chart-dark-tr.jpg",
+      "/ai-cv-portfolio/projects/chartmaker/contact-page-dark-en.jpg",
+      "/ai-cv-portfolio/projects/chartmaker/contact-page-dark-tr.jpg"
     ]
   },
   {
@@ -64,11 +64,41 @@
     ],
     "link": "https://github.com/mcuneytozturkc/Store-of-morpheus",
     "images": [
-      "/projects/store-of-morpheus/main-page.jpg",
-      "/projects/store-of-morpheus/how-it-works.jpg",
-      "/projects/store-of-morpheus/navbar-menu-works.jpg",
-      "/projects/store-of-morpheus/dream-library.jpg",
-      "/projects/store-of-morpheus/share-your-dream.jpg"
+      "/ai-cv-portfolio/projects/store-of-morpheus/main-page.jpg",
+      "/ai-cv-portfolio/projects/store-of-morpheus/how-it-works.jpg",
+      "/ai-cv-portfolio/projects/store-of-morpheus/navbar-menu-works.jpg",
+      "/ai-cv-portfolio/projects/store-of-morpheus/dream-library.jpg",
+      "/ai-cv-portfolio/projects/store-of-morpheus/share-your-dream.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "title": {
+      "tr": "JWT Kimlik Doğrulama Paneli",
+      "en": "JWT Authenticated User Panel",
+      "nl": "JWT Auth Gebruikerspaneel"
+    },
+    "description": {
+      "tr": "Angular, Express.js ve PostgreSQL kullanılarak geliştirilmiş, modern ve çok dilli kullanıcı yönetimi paneli. Kayıt olma, giriş, profil düzenleme, şifre değiştirme ve JWT ile güvenli oturum yönetimi gibi özellikler sunar.",
+      "en": "A modern, multilingual user management panel built with Angular, Express.js, and PostgreSQL. Provides secure registration, login, profile editing, password change, and JWT-based session management.",
+      "nl": "Een modern en meertalig gebruikerspaneel gebouwd met Angular, Express.js en PostgreSQL. Biedt beveiligde registratie, login, profielbewerking, wachtwoord wijzigen en JWT-gebaseerd sessiebeheer."
+    },
+    "tech": [
+      "Angular",
+      "TypeScript",
+      "Express.js",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "link": "https://github.com/mcuneytozturkc/jwt-auth",
+    "images": [
+      "/ai-cv-portfolio/projects/jwt-auth/home-page-unregistered.jpg",
+      "/ai-cv-portfolio/projects/jwt-auth/home-page-logged-in.jpg",
+      "/ai-cv-portfolio/projects/jwt-auth/login-page.jpg",
+      "/ai-cv-portfolio/projects/jwt-auth/register-page.jpg",
+      "/ai-cv-portfolio/projects/jwt-auth/profile-page.jpg",
+      "/ai-cv-portfolio/projects/jwt-auth/edit-profile-page.jpg",
+      "/ai-cv-portfolio/projects/jwt-auth/change-password-page.jpg"
     ]
   }
 ]

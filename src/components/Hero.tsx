@@ -5,9 +5,9 @@ export default function Hero() {
     const { t, i18n } = useTranslation();
 
     const cvLinks: Record<string, string> = {
-        tr: "/Muhsin-Cuneyt-Ozturk-CV-Turkce.pdf",
-        en: "/Muhsin-Cuneyt-Ozturk-Resume.pdf",
-        nl: "/Muhsin-Cuneyt-Ozturk-Cv-Dutch.pdf",
+        tr: "/ai-cv-portfolio/Muhsin-Cuneyt-Ozturk-CV-Turkce.pdf",
+        en: "/ai-cv-portfolio/Muhsin-Cuneyt-Ozturk-Resume.pdf",
+        nl: "/ai-cv-portfolio/Muhsin-Cuneyt-Ozturk-Cv-Dutch.pdf",
     };
 
 
@@ -23,7 +23,7 @@ export default function Hero() {
                 <p className="mt-4 text-gray-300 text-lg">{t("hero_description")}</p>
                 <div className="mt-6 flex flex-col sm:flex-row gap-4 justify-center">
                     <a
-                        href="/projects"
+                        href="/ai-cv-portfolio/projects"
                         className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold shadow hover:bg-blue-700 hover:text-white transition"
                     >
                         {t("hero_projects_button")}
