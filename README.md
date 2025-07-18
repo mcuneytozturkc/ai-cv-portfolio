@@ -47,9 +47,9 @@ npm install
 npm run dev
 
 # 4. Start ai chat server
-start new terminal
+Start new terminal
 
-enter Open AI key to server/.env 
+Enter Open AI key to server/.env 
 
 cd server
 
