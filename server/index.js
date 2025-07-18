@@ -22,16 +22,17 @@ app.post("/api/chat", async (req, res) => {
   const { tech_stack, about_name, projects_name, projectDescriptions } = getTranslationByLang(lang, __dirname);
 
   try {
-    const openRouterRes = await fetch("https://openrouter.ai/api/v1/chat/completions", {
+    console.log("🔹 OpenAI'ya istek gönderiliyor...");
+    const openaiRes = await fetch("https://api.openai.com/v1/chat/completions", {
       method: "POST",
       headers: {
-        "Authorization": `Bearer ${process.env.OPENROUTER_API_KEY}`,
+        "Authorization": `Bearer ${process.env.OPENAI_API_KEY}`,
         "Content-Type": "application/json",
         "HTTP-Referer": "http://localhost:5173",
         "X-Title": "Cuneyt Portfolio Chat"
       },
       body: JSON.stringify({
-        model: "deepseek/deepseek-chat-v3-0324:free",
+        model: "gpt-3.5-turbo",
         messages: [
           {
             role: "system",
@@ -63,18 +64,18 @@ ${about_name} (hakkında), ${projects_name} (projeleri)
       })
     });
 
-    const data = await openRouterRes.json();
-
+    const data = await openaiRes.json();
+    console.log("🔹 OpenAI yanıtı:", data);
     const reply = data.choices?.[0]?.message?.content || "Bot şu anda cevap veremiyor.";
     res.json({ reply });
   } catch (err) {
-    console.error("❌ OpenRouter API hatası:", err);
-    res.status(500).json({ error: "OpenRouter çağrısı başarısız oldu.", detail: err.message });
+    console.error("❌ API hatası:", err);
+    res.status(500).json({ error: "OpenAI çağrısı başarısız oldu.", detail: err.message });
   }
 });
 
 const PORT = 3001;
-app.listen(PORT, () => console.log(`✅ OpenRouter Chat API hazır: http://localhost:${PORT}`));
+app.listen(PORT, () => console.log(`✅ OpenAI Chat API hazır: http://localhost:${PORT}`));
 
 function getTranslationByLang(lang, __dirname) {
   const langFile = path.join(__dirname, "..", "src", "locales", lang, "translation.json");

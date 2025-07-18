@@ -7,9 +7,9 @@
       "nl": "AI-Gestuurd CV"
     },
     "description": {
-      "tr": "React ve OpenAI API kullanarak interaktif CV oluşturma.",
-      "en": "Creating an interactive resume using React and the OpenAI API.",
-      "nl": "Een interactief CV maken met React en de OpenAI API."
+      "tr": "Şu anda bu uygulamadasınız. React ve OpenAI API kullanarak oluşturulmuş interaktif bir portföy. Kullanıcılar, OpenAI API ile etkileşimde bulunarak Cüneyt ÖZTÜRK hakkında bilgi edinebilirler",
+      "en": "You are currently viewing this application. An interactive portfolio created with React and the OpenAI API. Users can interact with the OpenAI API to learn more about Cüneyt ÖZTÜRK.",
+      "nl": "Je bekijkt momenteel deze applicatie. Een interactieve portfolio gemaakt met React en de OpenAI API. Gebruikers kunnen interactie hebben met de OpenAI API om meer te leren over Cüneyt ÖZTÜRK."
     },
     "tech": [
       "React",
@@ -27,9 +27,9 @@
       "nl": "ChartMaker"
     },
     "description": {
-      "tr": "React ve Framer Motion kullanarak etkileşimli grafik oluşturma uygulaması.",
-      "en": "An interactive chart creation application using React and Framer Motion.",
-      "nl": "Een interactieve grafiekcreatie-applicatie met React en Framer Motion."
+      "tr": "React ve Framer Motion kullanarak etkileşimli grafik oluşturma uygulaması. Excel veya PDF yüklendiğinde çeşitli grafikler oluşturabilir ve bunları JPEG olarak indirebilir.",
+      "en": "An interactive chart creation application using React and Framer Motion. It can create various charts when an Excel or PDF is uploaded and allows downloading them as JPEG.",
+      "nl": "Een interactieve grafiekcreatie-applicatie met React en Framer Motion. Het kan verschillende grafieken maken wanneer een Excel- of PDF-bestand wordt geüpload en stelt gebruikers in staat om deze als JPEG te downloaden."
     },
     "tech": [
       "React.js",
@@ -52,9 +52,9 @@
       "nl": "Droom Winkel"
     },
     "description": {
-      "tr": "Angular ve Java SpringBoot ile hazırlanmış rüya satın alım uygulaması.",
-      "en": "A dream purchase application built with Angular and Java SpringBoot.",
-      "nl": "Een droom aankoopapplicatie gebouwd met Angular en Java SpringBoot."
+      "tr": "Angular ve Java SpringBoot ile hazırlanmış rüya satın alım uygulaması. İnsanların rüyalarını paylaşabileceği, rüya kitaplığına erişebileceği ve rüyalarını satabileceği veya rüyalar satabileceği bir platform.",
+      "en": "A dream purchase application built with Angular and Java SpringBoot. A platform where people can share their dreams, access a dream library, and buy or sell dreams.",
+      "nl": "Een droom aankoopapplicatie gebouwd met Angular en Java SpringBoot. Een platform waar mensen hun dromen kunnen delen, toegang hebben tot een droombibliotheek en dromen kunnen kopen of verkopen."
     },
     "tech": [
       "Angular",
@@ -69,6 +69,36 @@
       "/projects/store-of-morpheus/navbar-menu-works.jpg",
       "/projects/store-of-morpheus/dream-library.jpg",
       "/projects/store-of-morpheus/share-your-dream.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "title": {
+      "tr": "JWT Kimlik Doğrulama Paneli",
+      "en": "JWT Authenticated User Panel",
+      "nl": "JWT Auth Gebruikerspaneel"
+    },
+    "description": {
+      "tr": "Angular, Express.js ve PostgreSQL kullanılarak geliştirilmiş, modern ve çok dilli kullanıcı yönetimi paneli. Kayıt olma, giriş, profil düzenleme, şifre değiştirme ve JWT ile güvenli oturum yönetimi gibi özellikler sunar.",
+      "en": "A modern, multilingual user management panel built with Angular, Express.js, and PostgreSQL. Provides secure registration, login, profile editing, password change, and JWT-based session management.",
+      "nl": "Een modern en meertalig gebruikerspaneel gebouwd met Angular, Express.js en PostgreSQL. Biedt beveiligde registratie, login, profielbewerking, wachtwoord wijzigen en JWT-gebaseerd sessiebeheer."
+    },
+    "tech": [
+      "Angular",
+      "TypeScript",
+      "Express.js",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "link": "https://github.com/mcuneytozturkc/jwt-auth",
+    "images": [
+      "/projects/jwt-auth/home-page-unregistered.jpg",
+      "/projects/jwt-auth/home-page-logged-in.jpg",
+      "/projects/jwt-auth/login-page.jpg",
+      "/projects/jwt-auth/register-page.jpg",
+      "/projects/jwt-auth/profile-page.jpg",
+      "/projects/jwt-auth/edit-profile-page.jpg",
+      "/projects/jwt-auth/change-password-page.jpg"
     ]
   }
 ]

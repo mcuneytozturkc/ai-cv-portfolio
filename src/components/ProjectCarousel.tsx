@@ -1,6 +1,11 @@
 // ProjectCarousel.tsx
+import { useTranslation } from "react-i18next";
 import { FaGithub } from "react-icons/fa";
+
 export default function ProjectCarousel({ projects, onProjectClick }: any) {
+    const { i18n } = useTranslation();
+    const currentLang = (i18n.language as "tr" | "en" | "nl") || "en";
+
     return (
         <>
             {projects.map((project: any) => (
@@ -12,10 +17,10 @@ export default function ProjectCarousel({ projects, onProjectClick }: any) {
                 >
                     <div>
                         <h2 className="text-xl font-semibold text-white mb-2">
-                            {project.title.en}
+                            {project.title[currentLang] || project.title["en"]}
                         </h2>
                         <p className="text-gray-300 mb-4 line-clamp-5">
-                            {project.description.en}
+                            {project.description[currentLang] || project.description["en"]}
                         </p>
                         <div className="flex flex-wrap gap-2 mb-4">
                             {project.tech.map((tech: string, i: number) => (

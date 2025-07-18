@@ -26,9 +26,9 @@ function AnimatedRoutes() {
 
 function App() {
   return (
-    <BrowserRouter basename="/ai-cv-portfolio">
+    <BrowserRouter basename="/">
       <Navbar />
-      <main className="w-full min-h-screen">
+      <main className="w-full h-[calc(100vh-4rem)] pt-16">
         <AnimatedRoutes />
       </main>
       <AIChat />
