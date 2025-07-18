@@ -25,8 +25,6 @@ export default function AiChat() {
                 body: JSON.stringify({ prompt: input }),
             });
             const data = await res.json();
-            console.log("🧠 OpenRouter'dan gelen:", data);
-            console.log("📡 OpenRouter yanıtı:", JSON.stringify(data, null, 2));
             const reply =
                 data.reply ||
                 data.choices?.[0]?.message?.content ||
@@ -69,8 +67,6 @@ export default function AiChat() {
             </button>
 
             {/* Chat Kutusu */}
-            // ...önceki kodlar aynı
-
             {open && (
                 <div className="fixed bottom-20 right-4 
     w-[90%] sm:w-[80%] md:w-[60%] lg:w-[40%] 

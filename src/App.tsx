@@ -15,10 +15,10 @@ function AnimatedRoutes() {
   return (
     <AnimatePresence mode="wait">
       <Routes location={location} key={location.pathname}>
-        <Route path="/ai-cv-portfolio/" element={<Home />} />
-        <Route path="/ai-cv-portfolio/projects" element={<Projects />} />
-        <Route path="/ai-cv-portfolio/about" element={<About />} />
-        <Route path="/ai-cv-portfolio/contact" element={<Contacts />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contacts />} />
       </Routes>
     </AnimatePresence>
   );
@@ -26,9 +26,9 @@ function AnimatedRoutes() {
 
 function App() {
   return (
-    <BrowserRouter basename="/ai-cv-portfolio">
+    <BrowserRouter basename="/">
       <Navbar />
-      <main className="w-full min-h-screen">
+      <main className="w-full h-[calc(100vh-4rem)] pt-16">
         <AnimatedRoutes />
       </main>
       <AIChat />

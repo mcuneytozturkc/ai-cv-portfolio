@@ -14,10 +14,10 @@ export default function Navbar() {
     };
 
     const links = [
-        { name: t("home"), to: "/ai-cv-portfolio/" },
-        { name: t("projects"), to: "/ai-cv-portfolio/projects" },
-        { name: t("about"), to: "/ai-cv-portfolio/about" },
-        { name: t("contact"), to: "/ai-cv-portfolio/contact", isButton: true },
+        { name: t("home"), to: "/" },
+        { name: t("projects"), to: "/projects" },
+        { name: t("about"), to: "/about" },
+        { name: t("contact"), to: "/contact", isButton: true },
     ];
 
     const menuVariants: Variants = {
